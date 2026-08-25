@@ -1,0 +1,23 @@
+# Environments
+venv/
+.venv/
+env/
+.conda/
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Secrets — never commit these
+.env
+*.env
+snowflake_credentials.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Silver/Gold local scratch (Bronze stays tracked — it's the log)
+data/silver/*.parquet
+data/gold/*.parquet
