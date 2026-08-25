@@ -1,0 +1,14 @@
+{
+  "ingested_at_utc": "2026-08-25T03:33:42.510148+00:00",
+  "source": "NASA NeoWs API - feed endpoint",
+  "query_date": "2026-08-16",
+  "raw_response": {
+    "links": {
+      "next": "http://api.nasa.gov/neo/rest/v1/feed?start_date=2026-08-17&end_date=2026-08-17&detailed=false&api_key=FXG9y7el6y8k3HftwMpfeRQ7fsQnzDSdwADraQFP",
+      "prev": "http://api.nasa.gov/neo/rest/v1/feed?start_date=2026-08-15&end_date=2026-08-15&detailed=false&api_key=FXG9y7el6y8k3HftwMpfeRQ7fsQnzDSdwADraQFP",
+      "self": "http://api.nasa.gov/neo/rest/v1/feed?start_date=2026-08-16&end_date=2026-08-16&detailed=false&api_key=FXG9y7el6y8k3HftwMpfeRQ7fsQnzDSdwADraQFP"
+    },
+    "element_count": 0,
+    "near_earth_objects": {}
+  }
+}
