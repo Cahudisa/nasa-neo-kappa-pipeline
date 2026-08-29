@@ -1,0 +1,66 @@
+{
+  "ingested_at_utc": "2026-08-29T16:15:55.684841+00:00",
+  "source": "NASA NeoWs API - feed endpoint",
+  "query_date": "2026-08-29",
+  "raw_response": {
+    "links": {
+      "next": "http://api.nasa.gov/neo/rest/v1/feed?start_date=2026-08-30&end_date=2026-08-30&detailed=false&api_key=FXG9y7el6y8k3HftwMpfeRQ7fsQnzDSdwADraQFP",
+      "prev": "http://api.nasa.gov/neo/rest/v1/feed?start_date=2026-08-28&end_date=2026-08-28&detailed=false&api_key=FXG9y7el6y8k3HftwMpfeRQ7fsQnzDSdwADraQFP",
+      "self": "http://api.nasa.gov/neo/rest/v1/feed?start_date=2026-08-29&end_date=2026-08-29&detailed=false&api_key=FXG9y7el6y8k3HftwMpfeRQ7fsQnzDSdwADraQFP"
+    },
+    "element_count": 1,
+    "near_earth_objects": {
+      "2026-08-29": [
+        {
+          "links": {
+            "self": "http://api.nasa.gov/neo/rest/v1/neo/3991699?api_key=FXG9y7el6y8k3HftwMpfeRQ7fsQnzDSdwADraQFP"
+          },
+          "id": "3991699",
+          "neo_reference_id": "3991699",
+          "name": "(2020 DX1)",
+          "nasa_jpl_url": "https://ssd.jpl.nasa.gov/tools/sbdb_lookup.html#/?sstr=3991699",
+          "absolute_magnitude_h": 26.5,
+          "estimated_diameter": {
+            "kilometers": {
+              "estimated_diameter_min": 0.0133215567,
+              "estimated_diameter_max": 0.0297879063
+            },
+            "meters": {
+              "estimated_diameter_min": 13.3215566698,
+              "estimated_diameter_max": 29.7879062798
+            },
+            "miles": {
+              "estimated_diameter_min": 0.008277629,
+              "estimated_diameter_max": 0.0185093411
+            },
+            "feet": {
+              "estimated_diameter_min": 43.7058959846,
+              "estimated_diameter_max": 97.7293544391
+            }
+          },
+          "is_potentially_hazardous_asteroid": false,
+          "close_approach_data": [
+            {
+              "close_approach_date": "2026-08-29",
+              "close_approach_date_full": "2026-Aug-29 15:12",
+              "epoch_date_close_approach": 1788016320000,
+              "relative_velocity": {
+                "kilometers_per_second": "6.8184030214",
+                "kilometers_per_hour": "24546.2508771177",
+                "miles_per_hour": "15252.0857186179"
+              },
+              "miss_distance": {
+                "astronomical": "0.1103705821",
+                "lunar": "42.9341564369",
+                "kilometers": "16511203.992820127",
+                "miles": "10259586.4177946726"
+              },
+              "orbiting_body": "Earth"
+            }
+          ],
+          "is_sentry_object": false
+        }
+      ]
+    }
+  }
+}
