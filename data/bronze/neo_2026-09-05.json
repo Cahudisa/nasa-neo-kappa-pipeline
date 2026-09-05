@@ -1,0 +1,164 @@
+{
+  "ingested_at_utc": "2026-09-05T14:39:57.347919+00:00",
+  "source": "NASA NeoWs API - feed endpoint",
+  "query_date": "2026-09-05",
+  "raw_response": {
+    "links": {
+      "next": "http://api.nasa.gov/neo/rest/v1/feed?start_date=2026-09-06&end_date=2026-09-06&detailed=false&api_key=FXG9y7el6y8k3HftwMpfeRQ7fsQnzDSdwADraQFP",
+      "prev": "http://api.nasa.gov/neo/rest/v1/feed?start_date=2026-09-04&end_date=2026-09-04&detailed=false&api_key=FXG9y7el6y8k3HftwMpfeRQ7fsQnzDSdwADraQFP",
+      "self": "http://api.nasa.gov/neo/rest/v1/feed?start_date=2026-09-05&end_date=2026-09-05&detailed=false&api_key=FXG9y7el6y8k3HftwMpfeRQ7fsQnzDSdwADraQFP"
+    },
+    "element_count": 3,
+    "near_earth_objects": {
+      "2026-09-05": [
+        {
+          "links": {
+            "self": "http://api.nasa.gov/neo/rest/v1/neo/3330049?api_key=FXG9y7el6y8k3HftwMpfeRQ7fsQnzDSdwADraQFP"
+          },
+          "id": "3330049",
+          "neo_reference_id": "3330049",
+          "name": "(2006 HC2)",
+          "nasa_jpl_url": "https://ssd.jpl.nasa.gov/tools/sbdb_lookup.html#/?sstr=3330049",
+          "absolute_magnitude_h": 21.77,
+          "estimated_diameter": {
+            "kilometers": {
+              "estimated_diameter_min": 0.1176399894,
+              "estimated_diameter_max": 0.2630510131
+            },
+            "meters": {
+              "estimated_diameter_min": 117.639989374,
+              "estimated_diameter_max": 263.0510131126
+            },
+            "miles": {
+              "estimated_diameter_min": 0.0730980778,
+              "estimated_diameter_max": 0.1634522711
+            },
+            "feet": {
+              "estimated_diameter_min": 385.9579827377,
+              "estimated_diameter_max": 863.0282858603
+            }
+          },
+          "is_potentially_hazardous_asteroid": true,
+          "close_approach_data": [
+            {
+              "close_approach_date": "2026-09-05",
+              "close_approach_date_full": "2026-Sep-05 07:07",
+              "epoch_date_close_approach": 1788592020000,
+              "relative_velocity": {
+                "kilometers_per_second": "21.7358727019",
+                "kilometers_per_hour": "78249.1417267734",
+                "miles_per_hour": "48620.9736468387"
+              },
+              "miss_distance": {
+                "astronomical": "0.3538566942",
+                "lunar": "137.6502540438",
+                "kilometers": "52936207.737561354",
+                "miles": "32893034.2178565252"
+              },
+              "orbiting_body": "Earth"
+            }
+          ],
+          "is_sentry_object": false
+        },
+        {
+          "links": {
+            "self": "http://api.nasa.gov/neo/rest/v1/neo/3797715?api_key=FXG9y7el6y8k3HftwMpfeRQ7fsQnzDSdwADraQFP"
+          },
+          "id": "3797715",
+          "neo_reference_id": "3797715",
+          "name": "(2018 BX)",
+          "nasa_jpl_url": "https://ssd.jpl.nasa.gov/tools/sbdb_lookup.html#/?sstr=3797715",
+          "absolute_magnitude_h": 29.1,
+          "estimated_diameter": {
+            "kilometers": {
+              "estimated_diameter_min": 0.0040230458,
+              "estimated_diameter_max": 0.0089958039
+            },
+            "meters": {
+              "estimated_diameter_min": 4.0230457983,
+              "estimated_diameter_max": 8.9958038817
+            },
+            "miles": {
+              "estimated_diameter_min": 0.002499804,
+              "estimated_diameter_max": 0.0055897317
+            },
+            "feet": {
+              "estimated_diameter_min": 13.198969577,
+              "estimated_diameter_max": 29.5137932072
+            }
+          },
+          "is_potentially_hazardous_asteroid": false,
+          "close_approach_data": [
+            {
+              "close_approach_date": "2026-09-05",
+              "close_approach_date_full": "2026-Sep-05 19:22",
+              "epoch_date_close_approach": 1788636120000,
+              "relative_velocity": {
+                "kilometers_per_second": "8.0667863536",
+                "kilometers_per_hour": "29040.4308728702",
+                "miles_per_hour": "18044.5943943121"
+              },
+              "miss_distance": {
+                "astronomical": "0.3037257547",
+                "lunar": "118.1493185783",
+                "kilometers": "45436725.967262489",
+                "miles": "28233072.3310967882"
+              },
+              "orbiting_body": "Earth"
+            }
+          ],
+          "is_sentry_object": false
+        },
+        {
+          "links": {
+            "self": "http://api.nasa.gov/neo/rest/v1/neo/3843735?api_key=FXG9y7el6y8k3HftwMpfeRQ7fsQnzDSdwADraQFP"
+          },
+          "id": "3843735",
+          "neo_reference_id": "3843735",
+          "name": "(2019 QL7)",
+          "nasa_jpl_url": "https://ssd.jpl.nasa.gov/tools/sbdb_lookup.html#/?sstr=3843735",
+          "absolute_magnitude_h": 26.65,
+          "estimated_diameter": {
+            "kilometers": {
+              "estimated_diameter_min": 0.0124324001,
+              "estimated_diameter_max": 0.0277996916
+            },
+            "meters": {
+              "estimated_diameter_min": 12.4324000554,
+              "estimated_diameter_max": 27.7996916474
+            },
+            "miles": {
+              "estimated_diameter_min": 0.0077251329,
+              "estimated_diameter_max": 0.0172739222
+            },
+            "feet": {
+              "estimated_diameter_min": 40.7887153978,
+              "estimated_diameter_max": 91.2063403444
+            }
+          },
+          "is_potentially_hazardous_asteroid": false,
+          "close_approach_data": [
+            {
+              "close_approach_date": "2026-09-05",
+              "close_approach_date_full": "2026-Sep-05 20:21",
+              "epoch_date_close_approach": 1788639660000,
+              "relative_velocity": {
+                "kilometers_per_second": "20.9800052864",
+                "kilometers_per_hour": "75528.0190311059",
+                "miles_per_hour": "46930.1738251891"
+              },
+              "miss_distance": {
+                "astronomical": "0.3042053964",
+                "lunar": "118.3358991996",
+                "kilometers": "45508479.343945668",
+                "miles": "28277657.8119114984"
+              },
+              "orbiting_body": "Earth"
+            }
+          ],
+          "is_sentry_object": false
+        }
+      ]
+    }
+  }
+}
