@@ -1,0 +1,164 @@
+{
+  "ingested_at_utc": "2026-11-21T18:44:27.089007+00:00",
+  "source": "NASA NeoWs API - feed endpoint",
+  "query_date": "2026-11-21",
+  "raw_response": {
+    "element_count": 3,
+    "links": {
+      "next": "http://api.nasa.gov/neo/rest/v1/feed?start_date=2026-11-22&end_date=2026-11-22&detailed=false&api_key=FXG9y7el6y8k3HftwMpfeRQ7fsQnzDSdwADraQFP",
+      "prev": "http://api.nasa.gov/neo/rest/v1/feed?start_date=2026-11-20&end_date=2026-11-20&detailed=false&api_key=FXG9y7el6y8k3HftwMpfeRQ7fsQnzDSdwADraQFP",
+      "self": "http://api.nasa.gov/neo/rest/v1/feed?start_date=2026-11-21&end_date=2026-11-21&detailed=false&api_key=FXG9y7el6y8k3HftwMpfeRQ7fsQnzDSdwADraQFP"
+    },
+    "near_earth_objects": {
+      "2026-11-21": [
+        {
+          "absolute_magnitude_h": 24.0,
+          "close_approach_data": [
+            {
+              "close_approach_date": "2026-11-21",
+              "close_approach_date_full": "2026-Nov-21 09:22",
+              "epoch_date_close_approach": 1795252920000,
+              "miss_distance": {
+                "astronomical": "0.3244292066",
+                "kilometers": "48533918.273149942",
+                "lunar": "126.2029613674",
+                "miles": "30157578.3894435196"
+              },
+              "orbiting_body": "Earth",
+              "relative_velocity": {
+                "kilometers_per_hour": "31019.190475442",
+                "kilometers_per_second": "8.6164417987",
+                "miles_per_hour": "19274.1186595878"
+              }
+            }
+          ],
+          "estimated_diameter": {
+            "feet": {
+              "estimated_diameter_max": 309.0473542854,
+              "estimated_diameter_min": 138.2101784897
+            },
+            "kilometers": {
+              "estimated_diameter_max": 0.0941976306,
+              "estimated_diameter_min": 0.0421264611
+            },
+            "meters": {
+              "estimated_diameter_max": 94.1976305719,
+              "estimated_diameter_min": 42.1264610556
+            },
+            "miles": {
+              "estimated_diameter_max": 0.0585316759,
+              "estimated_diameter_min": 0.0261761612
+            }
+          },
+          "id": "3447917",
+          "is_potentially_hazardous_asteroid": false,
+          "is_sentry_object": false,
+          "links": {
+            "self": "http://api.nasa.gov/neo/rest/v1/neo/3447917?api_key=FXG9y7el6y8k3HftwMpfeRQ7fsQnzDSdwADraQFP"
+          },
+          "name": "(2009 DC1)",
+          "nasa_jpl_url": "https://ssd.jpl.nasa.gov/tools/sbdb_lookup.html#/?sstr=3447917",
+          "neo_reference_id": "3447917"
+        },
+        {
+          "absolute_magnitude_h": 22.3,
+          "close_approach_data": [
+            {
+              "close_approach_date": "2026-11-21",
+              "close_approach_date_full": "2026-Nov-21 15:43",
+              "epoch_date_close_approach": 1795275780000,
+              "miss_distance": {
+                "astronomical": "0.1396567054",
+                "kilometers": "20892345.659057498",
+                "lunar": "54.3264584006",
+                "miles": "12981901.6137615524"
+              },
+              "orbiting_body": "Earth",
+              "relative_velocity": {
+                "kilometers_per_hour": "82877.5879483583",
+                "kilometers_per_second": "23.0215522079",
+                "miles_per_hour": "51496.9101338007"
+              }
+            }
+          ],
+          "estimated_diameter": {
+            "feet": {
+              "estimated_diameter_max": 676.1219416887,
+              "estimated_diameter_min": 302.370924539
+            },
+            "kilometers": {
+              "estimated_diameter_max": 0.2060819612,
+              "estimated_diameter_min": 0.0921626549
+            },
+            "meters": {
+              "estimated_diameter_max": 206.0819612321,
+              "estimated_diameter_min": 92.1626548503
+            },
+            "miles": {
+              "estimated_diameter_max": 0.1280533543,
+              "estimated_diameter_min": 0.057267201
+            }
+          },
+          "id": "3790063",
+          "is_potentially_hazardous_asteroid": false,
+          "is_sentry_object": false,
+          "links": {
+            "self": "http://api.nasa.gov/neo/rest/v1/neo/3790063?api_key=FXG9y7el6y8k3HftwMpfeRQ7fsQnzDSdwADraQFP"
+          },
+          "name": "(2017 WR28)",
+          "nasa_jpl_url": "https://ssd.jpl.nasa.gov/tools/sbdb_lookup.html#/?sstr=3790063",
+          "neo_reference_id": "3790063"
+        },
+        {
+          "absolute_magnitude_h": 24.8,
+          "close_approach_data": [
+            {
+              "close_approach_date": "2026-11-21",
+              "close_approach_date_full": "2026-Nov-21 03:09",
+              "epoch_date_close_approach": 1795230540000,
+              "miss_distance": {
+                "astronomical": "0.2153848001",
+                "kilometers": "32221107.325335787",
+                "lunar": "83.7846872389",
+                "miles": "20021267.6934443806"
+              },
+              "orbiting_body": "Earth",
+              "relative_velocity": {
+                "kilometers_per_hour": "43615.6464381617",
+                "kilometers_per_second": "12.1154573439",
+                "miles_per_hour": "27101.0665326455"
+              }
+            }
+          ],
+          "estimated_diameter": {
+            "feet": {
+              "estimated_diameter_max": 213.8085311752,
+              "estimated_diameter_min": 95.6180819754
+            },
+            "kilometers": {
+              "estimated_diameter_max": 0.0651688382,
+              "estimated_diameter_min": 0.0291443905
+            },
+            "meters": {
+              "estimated_diameter_max": 65.1688382168,
+              "estimated_diameter_min": 29.1443904535
+            },
+            "miles": {
+              "estimated_diameter_max": 0.0404940262,
+              "estimated_diameter_min": 0.018109479
+            }
+          },
+          "id": "3836138",
+          "is_potentially_hazardous_asteroid": false,
+          "is_sentry_object": false,
+          "links": {
+            "self": "http://api.nasa.gov/neo/rest/v1/neo/3836138?api_key=FXG9y7el6y8k3HftwMpfeRQ7fsQnzDSdwADraQFP"
+          },
+          "name": "(2018 VZ5)",
+          "nasa_jpl_url": "https://ssd.jpl.nasa.gov/tools/sbdb_lookup.html#/?sstr=3836138",
+          "neo_reference_id": "3836138"
+        }
+      ]
+    }
+  }
+}
